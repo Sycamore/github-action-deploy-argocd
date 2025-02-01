@@ -122,6 +122,7 @@ runs:
         helmfile-version: v0.148.1
         helm-version: v3.10.2
         install-kubectl: false
+        install-helm-plugins: false
 
     - name: Setup node
       uses: actions/setup-node@v4
